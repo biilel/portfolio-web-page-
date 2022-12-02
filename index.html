@@ -1,23 +1,145 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Portfolio website</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio website</title>
 </head>
+
 <body>
-<!----hero section start---->
+    <!----hero section start---->
+    <table border="0" width="100%" cellpading="0" cellspacing="0">
+        <div class="hero">
+            <nav>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" allign="center">
+                    <tr>
+                        <td>
+                            <h1>bilel belazi</h1>
+                        </td>
+                        <td width="30%">&nbsp;</td>
+                        <td>
+                            <h2><a href="#home">home</a></h2>
+                        </td>
+                        <td>
+                            <h2><a href="#about">about</a></h2>
+                        </td>
+                        <td>
+                            <h2><a href="#work">work</a></h2>
+                        </td>
+                        <td>
+                            <h2><a href="#resume">resume</a></h2>
+                        </td>
+                        <td>
+                            <h2><a href="#contact">contact</a></h2>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+    </table>
 
-<div class="hero">
-<nav>
-<h2 class="logo">Portfolio</h2>
-<ul>
-<li><a href="#">home</a></li>
-<li><a href="#">about</a></li>
-<li><a href="#">work</a></li>
-<li><a href="#">resume</a></li>
-<li><a href="#">contact</a></li>
-</ul>
+    <div id="home">
+        <h2>Welcome to my project</h2>
+        <video width="30%" src="welcome.mp4" controls></video>
+    </div>
 
-</nav>
-</div>
+    <table id="about">
+        <h3>about me</h3>
+        <tr>
+            <td>
+                <img src="img.jpg">
+            </td>
+            <td>
+                hello, my name is bilel belazi
+                <hr>
+                i am currently a student at GOMYCODE
+                <hr>
+                and this is my web Development project wich is creating a website using HTML.
+                <hr>
+            </td>
+        </tr>
+
+    </table>
+    <table id="work">
+        <h3>work</h3>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <b>Student in GOMYCODE</b>
+                        <ul>
+                            <li>
+                                October2022 - Present.
+                            </li>
+                            <li>
+                                Develop web Pages
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>work in a family project</b>
+                        <ul>
+                            <li>
+                                2020 - Present.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table id="resume">
+        <h3>Resume</h3>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <b>Bachelor degree</b>
+                        <ul>
+                            <li>
+                                march 2019
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <form id="contact" action="">
+        <h3>Quick Contact</h3>
+        <fieldset>
+            <input placeholder="Your name" type="text" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Email Address" type="email" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Phone Number" type="tel" required>
+        </fieldset>
+        <fieldset>
+            <textarea placeholder="Type your Message Here...." required></textarea>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <table id="footer">
+        <tr>
+            <td>
+                ©Copyright 2022 by Bilel belazi.
+                All rights reserved.
+            <td>
+                <a href="#header"><b>Back to Top</b></a>
+            </td>
+        </tr>
+    </table>
+
 </body>
+
 </html>
